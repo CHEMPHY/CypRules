@@ -1,0 +1,4 @@
+C:\Users\hsiao\Documents\GitHub\CypRules\program_example\program_example\1A2\1a2.p2.cc.names
+C:\Users\hsiao\Documents\GitHub\CypRules\program_example\program_example\1A2\1a2.p2.cc.cases
+C:\Users\hsiao\Documents\GitHub\CypRules\KNIME_CypRules\TestCompoundsDescriptors.csv
+C:\Users\hsiao\Documents\GitHub\CypRules\TestCompoundsDescriptors.csv

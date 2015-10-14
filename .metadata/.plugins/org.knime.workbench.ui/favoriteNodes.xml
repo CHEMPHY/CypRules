@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<favoritenodes>
+<personals/>
+<frequents>
+<favorite frequency="1" nodeid="org.pasteur.pf2.tools.CmdwInputNodeFactory"/>
+</frequents>
+<lastused>
+<favorite nodeid="org.pasteur.pf2.tools.CmdwInputNodeFactory"/>
+</lastused>
+</favoritenodes>

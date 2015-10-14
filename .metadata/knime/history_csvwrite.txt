@@ -1,0 +1,2 @@
+C:\Users\hsiao\Documents\GitHub\CypRules\KNIME_CypRules\TestCompoundsDescriptors.csv
+C:\Users\hsiao\Documents\GitHub\CypRules\TestCompoundsDescriptors.csv

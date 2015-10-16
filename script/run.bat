@@ -1,0 +1,1 @@
+predict\predict.exe -R -f 1a2.p2.cc\1a2.p2.cc > out.txt

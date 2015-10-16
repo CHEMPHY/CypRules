@@ -20,6 +20,12 @@
 <entry key="includeInToken" type="xboolean" value="false"/>
 <entry key="returnAsToken" type="xboolean" value="true"/>
 </config>
+<config key="Delim2">
+<entry key="pattern" type="xstring" value=":"/>
+<entry key="combineMultiple" type="xboolean" value="false"/>
+<entry key="includeInToken" type="xboolean" value="false"/>
+<entry key="returnAsToken" type="xboolean" value="false"/>
+</config>
 </config>
 <config key="Quotes">
 <config key="Quote0">
@@ -62,10 +68,10 @@
 <entry key="acceptShortLines" type="xboolean" value="false"/>
 <entry key="uniquifyRowID" type="xboolean" value="false"/>
 <entry key="MaxNumOfRows" type="xlong" value="-1"/>
-<entry key="ColNumDetermLine" type="xint" value="-1"/>
+<entry key="ColNumDetermLine" type="xint" value="3"/>
 <entry key="CharsetName" type="xstring" isnull="true" value=""/>
 <entry key="delimsAtEOLuserVal" type="xboolean" value="false"/>
-<entry key="numOfColumns" type="xint" value="1"/>
+<entry key="numOfColumns" type="xint" value="2"/>
 <config key="ColumnProperties">
 <config key="0">
 <entry key="UserSetValues" type="xboolean" value="false"/>
@@ -73,6 +79,17 @@
 <entry key="ReadPossValsFromFile" type="xboolean" value="false"/>
 <entry key="SkipThisColumn" type="xboolean" value="false"/>
 <entry key="ColumnName" type="xstring" value="activity. | value"/>
+<config key="ColumnClass">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+</config>
+<config key="1">
+<entry key="UserSetValues" type="xboolean" value="false"/>
+<entry key="MissValuePattern" type="xstring" value="?"/>
+<entry key="ReadPossValsFromFile" type="xboolean" value="false"/>
+<entry key="SkipThisColumn" type="xboolean" value="false"/>
+<entry key="ColumnName" type="xstring" value="Col1"/>
 <config key="ColumnClass">
 <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <entry key="is_null" type="xboolean" value="false"/>
@@ -97,12 +114,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 1378, Cols: 1"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 1378, Cols: 2"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="9971a396-ee65-4533-a3df-d61b5f2d6351"/>
+<entry key="file_store_id" type="xstring" value="1688c0f0-791c-4dfb-991c-a8e1323ac17b"/>
 </config>
 </config>

@@ -16,9 +16,9 @@
             "successor":"n/a"
         },
         "org.knime.ext.exttool.ExtToolNodeModel":{
-            "nrexecs":0,
-            "exectime":0,
-            "nrcreated":2,
+            "nrexecs":20,
+            "exectime":105360,
+            "nrcreated":3,
             "successor":"n/a"
         },
         "org.knime.base.node.jsnippet.JavaSnippetNodeModel":{
@@ -64,10 +64,10 @@
             "successor":"n/a"
         },
         "org.knime.base.node.io.csvreader.CSVReaderNodeModel":{
-            "nrexecs":4,
-            "exectime":8217,
+            "nrexecs":10,
+            "exectime":8309,
             "nrcreated":1,
-            "successor":"org.knime.base.node.viz.table.TableNodeModel"
+            "successor":"org.knime.ext.exttool.ExtToolNodeModel"
         },
         "org.knime.base.node.preproc.colcombine2.ColCombine2NodeModel":{
             "nrexecs":0,
@@ -82,8 +82,8 @@
             "successor":"org.knime.base.node.viz.table.TableNodeModel"
         },
         "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeModel":{
-            "nrexecs":3,
-            "exectime":21,
+            "nrexecs":7,
+            "exectime":24,
             "nrcreated":1,
             "successor":"org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeModel"
         },
@@ -160,10 +160,10 @@
             "successor":"org.knime.base.node.mine.decisiontree2.predictor2.DecTreePredictorNodeModel"
         },
         "org.knime.base.node.io.filereader.FileReaderNodeModel":{
-            "nrexecs":0,
-            "exectime":0,
-            "nrcreated":1,
-            "successor":"n/a"
+            "nrexecs":2,
+            "exectime":48,
+            "nrcreated":2,
+            "successor":"org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeModel"
         },
         "org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeModel":{
             "nrexecs":2,
@@ -186,7 +186,7 @@
         "org.knime.base.node.preproc.filter.row.RowFilterNodeModel":{
             "nrexecs":0,
             "exectime":0,
-            "nrcreated":1,
+            "nrcreated":2,
             "successor":"n/a"
         },
         "org.knime.ext.jep.JEPNodeModel":{
@@ -242,10 +242,34 @@
             "exectime":2929,
             "nrcreated":1,
             "successor":"org.knime.base.node.meta.looper.LoopEndJoinNodeModel"
+        },
+        "org.knime.base.node.preproc.split2.SplitNodeModel2":{
+            "nrexecs":0,
+            "exectime":0,
+            "nrcreated":1,
+            "successor":"n/a"
+        },
+        "org.knime.base.node.preproc.cellsplit.CellSplitterNodeModel":{
+            "nrexecs":1,
+            "exectime":2645,
+            "nrcreated":1,
+            "successor":"org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeModel"
+        },
+        "org.knime.base.node.preproc.transpose.TransposeTableNodeModel":{
+            "nrexecs":4,
+            "exectime":66,
+            "nrcreated":2,
+            "successor":"org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeModel"
+        },
+        "org.knime.datageneration.emptyfilecreato.EmptyFileCreatorNodeModel":{
+            "nrexecs":0,
+            "exectime":0,
+            "nrcreated":1,
+            "successor":"n/a"
         }
     },
-    "uptime":39432344,
-    "launches":4,
+    "uptime":36141751,
+    "launches":5,
     "crashes":1,
     "properlyShutDown":false
 }

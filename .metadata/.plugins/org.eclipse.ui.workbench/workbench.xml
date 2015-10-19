@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><workbench progressCount="14" version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="13" version="2.0">
 <workbenchAdvisor/>
-<window height="768" maximized="true" width="1024" x="50" y="50">
+<window height="768" maximized="true" minimized="true" width="1024" x="50" y="50">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar/>
 <coolbarLayout>
@@ -15,7 +16,7 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"><part id="4"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="1"/>
 <part id="0"/>
 <part id="2"/>
@@ -25,19 +26,19 @@
 </folder>
 </info>
 </editorArea>
-
-
-
-
 <editor id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" partName="2: String" title="2: String" tooltip="2: String" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="knime://LOCAL/String/workflow.knime"/>
-</editor><editor id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" partName="0: KNIME_CypRules" title="0: KNIME_CypRules" tooltip="0: KNIME_CypRules" workbook="DefaultEditorWorkbook">
+</editor>
+<editor activePart="true" focus="true" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" partName="0: KNIME_CypRules" title="0: KNIME_CypRules" tooltip="0: KNIME_CypRules" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="knime://LOCAL/KNIME_CypRules/workflow.knime"/>
-</editor><editor id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" partName="3: 011001_simpleWorkflowVariable" title="3: 011001_simpleWorkflowVariable" tooltip="3: 011001_simpleWorkflowVariable" workbook="DefaultEditorWorkbook">
+</editor>
+<editor id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" partName="3: 011001_simpleWorkflowVariable" title="3: 011001_simpleWorkflowVariable" tooltip="3: 011001_simpleWorkflowVariable" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="knime://LOCAL/011001_simpleWorkflowVariable/workflow.knime"/>
-</editor><editor id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" partName="4: 011006_loopColumnsManipulateEach" title="4: 011006_loopColumnsManipulateEach" tooltip="4: 011006_loopColumnsManipulateEach" workbook="DefaultEditorWorkbook">
+</editor>
+<editor id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" partName="4: 011006_loopColumnsManipulateEach" title="4: 011006_loopColumnsManipulateEach" tooltip="4: 011006_loopColumnsManipulateEach" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="knime://LOCAL/011006_loopColumnsManipulateEach/workflow.knime"/>
-</editor><editor activePart="true" focus="true" id="org.eclipse.ui.browser.editor" name="KNIME Intro" partName="KNIME Intro" title="Welcome to KNIME" tooltip="Welcome to KNIME" workbook="DefaultEditorWorkbook"><input factoryID="org.eclipse.ui.browser.elementFactory" id="org.knime.intro.page" url="file:/C:/Users/hsiao/AppData/Local/Temp/intro9143881557606662344.html"/></editor></editors>
+</editor>
+</editors>
 <views>
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
@@ -60,7 +61,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.knime.workbench.editor.WorkflowEditor" activePerspective="org.knime.workbench.ui.ModellerPerspective">
+<perspectives activePart="org.knime.workbench.explorer.view" activePerspective="org.knime.workbench.ui.ModellerPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.knime.workbench.ui.perspective.ModellerPerspectiveFactory" id="org.knime.workbench.ui.ModellerPerspective" label="KNIME"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -132,7 +133,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@11304f43" ratio="0.6463263" ratioLeft="1038" ratioRight="568" relationship="2" relative="org.eclipse.ui.editorss">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@11304f43" ratio="0.80323786" ratioLeft="1290" ratioRight="316" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.knime.workbench.helpview" appearance="2" expanded="2">
 <page content="org.knime.workbench.helpview" label="Node Description"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
@@ -167,6 +168,7 @@
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/String/workflow.knime"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/011001_simpleWorkflowVariable/workflow.knime"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/011006_loopColumnsManipulateEach/workflow.knime"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/KNIME_CypRules/workflow.knime"/>
 </editors>
 <item historyLabel="2: KNIME_CypRules" index="0"/>
 <item historyLabel="0: KNIME_CypRules" index="0"/>
@@ -184,7 +186,8 @@
 <item historyLabel="0: KNIME_CypRules" index="0"/>
 <item historyLabel="4: 011006_loopColumnsManipulateEach" index="3"/>
 <item historyLabel="0: KNIME_CypRules" index="0"/>
-<item active="true" historyLabel="2: String" index="1"/>
+<item historyLabel="2: String" index="1"/>
+<item active="true" historyLabel="0: KNIME_CypRules" index="4"/>
 </navigationHistory>
 </page>
 <workbenchWindowAdvisor/>

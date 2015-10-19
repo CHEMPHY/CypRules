@@ -9,13 +9,18 @@ using namespace std;
 
 //-----------------------------------------------------------------//
 
-int main(void)
+int main(int argc,char* argv[])
 {
-	
-    std::ifstream  data("1a2.p2.cc.cases2");
-	
-	std::ofstream  output("1a2.p2.cc.cases");
-	
+	std::ifstream  data;
+	std::ofstream  output;
+	if(argc==3){
+		data.open(argv[1]);
+		output.open(argv[2]);
+	}
+	else{
+    	data.open("1a2.p2.cc.cases2");
+		output.open("1a2.p2.cc.cases");
+	}
 	int i,j,k, numberOfDescriptors = 1444,numbersOfCompounds=0;
 	std::string line;
 	std::getline(data,line); // skip the first row (title row)

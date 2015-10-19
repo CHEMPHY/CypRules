@@ -13356,3 +13356,80 @@ java.lang.IllegalStateException: Execution failed (exit code 1)
 2015-10-16 23:38:45,095 : DEBUG : main : LocalWorkspaceContentProvider :  :  : Refreshing "/"
 2015-10-16 23:38:45,096 : DEBUG : main : LocalWorkspaceFileStore :  :  : Refreshed resource R/
 2015-10-16 23:38:45,125 : DEBUG : main : LocalWorkspaceFileStore :  :  : Refreshed resource R/
+2015-10-19 18:28:22,597 : DEBUG : KNIME-Node-Usage-Writer : NodeTimer$GlobalNodeStats :  :  : Successfully wrote node usage stats to file: C:\Users\hsiao\Documents\GitHub\CypRules\.metadata\knime\nodeusage.json
+2015-10-19 18:28:22,621 : DEBUG : KNIME-Node-Usage-Sender : NodeTimer$GlobalNodeStats :  :  : Node usage file did not send. Not logging additional information, since this is commonly due to limited internet connection: java.net.UnknownHostException - www.knime.org
+2015-10-19 18:28:51,289 : DEBUG : main : WorkflowEditor :  :  : Saving workflow KNIME_CypRules 0
+2015-10-19 18:28:51,300 : DEBUG : ModalContext : WorkflowManager :  :  : Deleted obsolete node directory "C:\Users\hsiao\Documents\GitHub\CypRules\KNIME_CypRules\CSV Reader (#48)"
+2015-10-19 18:28:51,302 : DEBUG : ModalContext : WorkflowManager :  :  : Deleted obsolete node directory "C:\Users\hsiao\Documents\GitHub\CypRules\KNIME_CypRules\Transpose (#53)"
+2015-10-19 18:28:51,302 : DEBUG : ModalContext : WorkflowManager :  :  : Deleted obsolete node directory "C:\Users\hsiao\Documents\GitHub\CypRules\KNIME_CypRules\Row Filter (#54)"
+2015-10-19 18:28:51,305 : DEBUG : ModalContext : WorkflowManager :  :  : Deleted obsolete node directory "C:\Users\hsiao\Documents\GitHub\CypRules\KNIME_CypRules\Column Filter (#52)"
+2015-10-19 18:28:51,307 : DEBUG : ModalContext : WorkflowManager :  :  : Deleted obsolete node directory "C:\Users\hsiao\Documents\GitHub\CypRules\KNIME_CypRules\File Reader (#50)"
+2015-10-19 18:28:51,309 : DEBUG : ModalContext : WorkflowManager :  :  : Deleted obsolete node directory "C:\Users\hsiao\Documents\GitHub\CypRules\KNIME_CypRules\Number To String (#31)"
+2015-10-19 18:28:51,310 : DEBUG : ModalContext : WorkflowManager :  :  : Deleted obsolete node directory "C:\Users\hsiao\Documents\GitHub\CypRules\KNIME_CypRules\Loop End _Column Append_ (#37)"
+2015-10-19 18:28:51,310 : DEBUG : ModalContext : WorkflowManager :  :  : Deleted obsolete node directory "C:\Users\hsiao\Documents\GitHub\CypRules\KNIME_CypRules\String To Number (#41)"
+2015-10-19 18:28:51,312 : DEBUG : ModalContext : WorkflowManager :  :  : Deleted obsolete node directory "C:\Users\hsiao\Documents\GitHub\CypRules\KNIME_CypRules\String Replacer (#33)"
+2015-10-19 18:28:51,314 : DEBUG : ModalContext : WorkflowManager :  :  : Deleted obsolete node directory "C:\Users\hsiao\Documents\GitHub\CypRules\KNIME_CypRules\Column List Loop Start (#34)"
+2015-10-19 18:28:51,316 : DEBUG : ModalContext : WorkflowManager :  :  : Deleted obsolete node directory "C:\Users\hsiao\Documents\GitHub\CypRules\KNIME_CypRules\Extract Column Header (#38)"
+2015-10-19 18:28:51,317 : DEBUG : ModalContext : WorkflowManager :  :  : Deleted obsolete node directory "C:\Users\hsiao\Documents\GitHub\CypRules\KNIME_CypRules\Insert Column Header (#39)"
+2015-10-19 18:28:51,320 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Replaced node directory "C:\Users\hsiao\Documents\GitHub\CypRules\KNIME_CypRules\External Tool (#55)"
+2015-10-19 18:28:51,328 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Created node directory "C:\Users\hsiao\Documents\GitHub\CypRules\KNIME_CypRules\Empty Table Creator (#56)"
+2015-10-19 18:28:51,358 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Created node directory "C:\Users\hsiao\Documents\GitHub\CypRules\KNIME_CypRules\String Input (#57)"
+2015-10-19 18:28:51,360 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Created node directory "C:\Users\hsiao\Documents\GitHub\CypRules\KNIME_CypRules\String Input (#58)"
+2015-10-19 18:28:51,388 : DEBUG : ModalContext : LocalWorkspaceContentProvider :  :  : Refreshing "/KNIME_CypRules"
+2015-10-19 18:28:51,896 : DEBUG : main : WorkflowRootEditPart :  :  : WorkflowRootEditPart deactivated
+2015-10-19 18:28:51,898 : DEBUG : main : WorkflowEditor :  :  : Disposing editor...
+2015-10-19 18:28:51,898 : DEBUG : main : ProjectWorkflowMap :  :  : unregistering org.knime.workbench.editor2.WorkflowEditor@23de3ea7 from file:/C:/Users/hsiao/Documents/GitHub/CypRules/KNIME_CypRules/. 0 left.
+2015-10-19 18:28:51,898 : DEBUG : main : ProjectWorkflowMap :  :  : Removing "file:/C:/Users/hsiao/Documents/GitHub/CypRules/KNIME_CypRules/" from project map (0 remaining)
+2015-10-19 18:28:51,899 : DEBUG : main : WorkflowManager :  :  : Removing project "KNIME_CypRules 0"
+2015-10-19 18:28:51,900 : DEBUG : main : CSVWriterNodeModel : CSV Writer : 0:42 : Removing all (0) views from model.
+2015-10-19 18:28:51,900 : DEBUG : main : CSV Writer : CSV Writer : 0:42 : clean output ports.
+2015-10-19 18:28:51,900 : DEBUG : main : DataColumnSpecFilterNodeModel : Column Filter : 0:43 : Removing all (0) views from model.
+2015-10-19 18:28:51,900 : DEBUG : main : Column Filter : Column Filter : 0:43 : clean output ports.
+2015-10-19 18:28:51,900 : DEBUG : main : DataColumnSpecFilterNodeModel : Column Filter : 0:47 : Removing all (0) views from model.
+2015-10-19 18:28:51,901 : DEBUG : main : Column Filter : Column Filter : 0:47 : clean output ports.
+2015-10-19 18:28:51,901 : DEBUG : main : DataColumnSpecFilterNodeModel : Column Filter : 0:46 : Removing all (0) views from model.
+2015-10-19 18:28:51,901 : DEBUG : main : Column Filter : Column Filter : 0:46 : clean output ports.
+2015-10-19 18:28:51,901 : DEBUG : main : DataColumnSpecFilterNodeModel : Column Filter : 0:45 : Removing all (0) views from model.
+2015-10-19 18:28:51,901 : DEBUG : main : Column Filter : Column Filter : 0:45 : clean output ports.
+2015-10-19 18:28:51,901 : DEBUG : main : DataColumnSpecFilterNodeModel : Column Filter : 0:44 : Removing all (0) views from model.
+2015-10-19 18:28:51,901 : DEBUG : main : Column Filter : Column Filter : 0:44 : clean output ports.
+2015-10-19 18:28:51,901 : DEBUG : main : TableNodeModel : Interactive Table : 0:5 : Removing all (0) views from model.
+2015-10-19 18:28:51,901 : DEBUG : main : Interactive Table : Interactive Table : 0:5 : clean output ports.
+2015-10-19 18:28:51,901 : DEBUG : main : MissingValueHandlerNodeModel : Missing Value : 0:30 : Removing all (0) views from model.
+2015-10-19 18:28:51,901 : DEBUG : main : Missing Value : Missing Value : 0:30 : clean output ports.
+2015-10-19 18:28:51,901 : DEBUG : main : DataColumnSpecFilterNodeModel : Column Filter : 0:11 : Removing all (0) views from model.
+2015-10-19 18:28:51,901 : DEBUG : main : Column Filter : Column Filter : 0:11 : clean output ports.
+2015-10-19 18:28:51,902 : DEBUG : main : TableNodeModel : Interactive Table : 0:10 : Removing all (0) views from model.
+2015-10-19 18:28:51,902 : DEBUG : main : Interactive Table : Interactive Table : 0:10 : clean output ports.
+2015-10-19 18:28:51,902 : DEBUG : main : WorkflowFileStoreHandlerRepository : External Tool : 0:55 : Removing handler 20fd7f1a-41f3-412f-bb1b-a76f51caec3a (External Tool 0:55: <no directory>) - 1 remaining
+2015-10-19 18:28:51,902 : DEBUG : main : ExtToolNodeModel : External Tool : 0:55 : Removing all (0) views from model.
+2015-10-19 18:28:51,902 : DEBUG : main : External Tool : External Tool : 0:55 : clean output ports.
+2015-10-19 18:28:51,902 : DEBUG : main : CompoundDescriptorsNodeModel : PaDEL-Descriptor : 0:1 : Removing all (0) views from model.
+2015-10-19 18:28:51,903 : DEBUG : main : PaDEL-Descriptor : PaDEL-Descriptor : 0:1 : clean output ports.
+2015-10-19 18:28:51,903 : DEBUG : main : Buffer : PaDEL-Descriptor : 0:1 : Closing input stream on "C:\Users\hsiao\AppData\Local\Temp\knime_KNIME_CypRules21480\knime_container_20151014_7908835894280121825.bin.gz", 0 remaining
+2015-10-19 18:28:51,903 : DEBUG : main : TableNodeModel : Interactive Table : 0:8 : Removing all (0) views from model.
+2015-10-19 18:28:51,903 : DEBUG : main : Interactive Table : Interactive Table : 0:8 : clean output ports.
+2015-10-19 18:28:51,903 : DEBUG : main : ColumnAppenderNodeModel : Column Appender : 0:9 : Removing all (0) views from model.
+2015-10-19 18:28:51,903 : DEBUG : main : Column Appender : Column Appender : 0:9 : clean output ports.
+2015-10-19 18:28:51,903 : DEBUG : main : TableNodeModel : Interactive Table : 0:7 : Removing all (0) views from model.
+2015-10-19 18:28:51,903 : DEBUG : KNIME-Temp-File-Deleter : Buffer :  :  : Deleted temporary file "C:\Users\hsiao\AppData\Local\Temp\knime_KNIME_CypRules21480\knime_container_20151014_7908835894280121825.bin.gz"
+2015-10-19 18:28:51,903 : DEBUG : main : Interactive Table : Interactive Table : 0:7 : clean output ports.
+2015-10-19 18:28:51,904 : DEBUG : main : StringInputQuickFormInNodeModel : String Input : 0:58 : Removing all (0) views from model.
+2015-10-19 18:28:51,904 : DEBUG : main : String Input : String Input : 0:58 : clean output ports.
+2015-10-19 18:28:51,904 : DEBUG : main : StringInputQuickFormInNodeModel : String Input : 0:57 : Removing all (0) views from model.
+2015-10-19 18:28:51,904 : DEBUG : main : String Input : String Input : 0:57 : clean output ports.
+2015-10-19 18:28:51,904 : DEBUG : main : WorkflowFileStoreHandlerRepository : Empty Table Creator : 0:56 : Removing handler be012355-d5cc-43bc-ab8f-e0e9a2255816 (Empty Table Creator 0:56: <no directory>) - 0 remaining
+2015-10-19 18:28:51,904 : DEBUG : main : EmptyFileCreatorNodeModel : Empty Table Creator : 0:56 : Removing all (0) views from model.
+2015-10-19 18:28:51,904 : DEBUG : main : Empty Table Creator : Empty Table Creator : 0:56 : clean output ports.
+2015-10-19 18:28:51,904 : DEBUG : main : CompoundReaderNodeModel : Compounds Reader : 0:29 : Removing all (0) views from model.
+2015-10-19 18:28:51,904 : DEBUG : main : Compounds Reader : Compounds Reader : 0:29 : clean output ports.
+2015-10-19 18:28:51,904 : DEBUG : main : CSVReaderNodeModel : CSV Reader : 0:6 : Removing all (0) views from model.
+2015-10-19 18:28:51,904 : DEBUG : main : CSV Reader : CSV Reader : 0:6 : clean output ports.
+2015-10-19 18:28:51,905 : DEBUG : main : Buffer : CSV Reader : 0:6 : Closing input stream on "C:\Users\hsiao\AppData\Local\Temp\knime_KNIME_CypRules21480\knime_container_20151014_2150947192496884286.bin.gz", 0 remaining
+2015-10-19 18:28:51,905 : DEBUG : main : IndicesCalculationNodeModel : EnalosMold2 : 0:3 : Removing all (0) views from model.
+2015-10-19 18:28:51,905 : DEBUG : main : EnalosMold2 : EnalosMold2 : 0:3 : clean output ports.
+2015-10-19 18:28:51,905 : DEBUG : main : Buffer : EnalosMold2 : 0:3 : Closing input stream on "C:\Users\hsiao\AppData\Local\Temp\knime_KNIME_CypRules21480\knime_container_20151014_157761680213948792.bin.gz", 1 remaining
+2015-10-19 18:28:51,905 : DEBUG : main : Buffer : EnalosMold2 : 0:3 : Closing input stream on "C:\Users\hsiao\AppData\Local\Temp\knime_KNIME_CypRules21480\knime_container_20151014_157761680213948792.bin.gz", 0 remaining
+2015-10-19 18:28:51,905 : DEBUG : KNIME-Temp-File-Deleter : Buffer :  :  : Deleted temporary file "C:\Users\hsiao\AppData\Local\Temp\knime_KNIME_CypRules21480\knime_container_20151014_2150947192496884286.bin.gz"
+2015-10-19 18:28:51,905 : DEBUG : KNIME-Temp-File-Deleter : Buffer :  :  : Deleted temporary file "C:\Users\hsiao\AppData\Local\Temp\knime_KNIME_CypRules21480\knime_container_20151014_157761680213948792.bin.gz"
+2015-10-19 18:28:51,906 : DEBUG : main : WorkflowManager :  :  : Project "KNIME_CypRules 0" removed (1 remaining)

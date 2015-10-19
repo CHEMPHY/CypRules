@@ -4,6 +4,7 @@
 #include <string>
 #include <iomanip>
 #include <stdlib.h>
+#include <cstring>
 using namespace std;
 
 typedef struct _fingerprint
@@ -195,7 +196,7 @@ int Model::GetNumbersOfRule(int ruleSetNumberIndex)
 
 //-----------------------------------------------------------------//
 
-int main(void)
+int main(int argc,char* argv[])
 {
 	int map[1444];
 	map[0]=0;
@@ -1575,10 +1576,36 @@ int main(void)
 	map[1441]=1374;
 	map[1443]=1375;
 	
-    std::ifstream  data("1a2.p2.cc.predict");
-	std::ifstream  model("1a2.p2.cc.rules");
-	std::ofstream  output("1a2.p2.cc.statistics");
-	std::ifstream  descriptorfile("1a2.p2.cc.cases");
+    std::ifstream  data;
+	std::ifstream  model;
+	std::ofstream  output;
+	std::ifstream  descriptorfile;
+
+	if(argc==2){
+		char str[200];
+
+		strcpy(str,argv[1]);
+		strcat(str,"\1a2.p2.cc.predict");
+		data.open(str);
+
+		strcpy(str,argv[1]);
+		strcat(str,"\1a2.p2.cc.rules");
+		model.open(str);
+
+		strcpy(str,argv[1]);
+		strcat(str,"\1a2.p2.cc.statistics");
+		output.open(str);
+
+		strcpy(str,argv[1]);
+		strcat(str,"\1a2.p2.cc.cases");
+		descriptorfile.open(str);
+	}
+	else{
+		data.open("1a2.p2.cc.predict");
+		model.open("1a2.p2.cc.rules");
+		output.open("1a2.p2.cc.statistics");
+		descriptorfile.open("1a2.p2.cc.cases");
+	}
 	int i,j,k, numberOfDescriptors = 1376,numbersOfCompounds=0;
 	std::string line;
 	

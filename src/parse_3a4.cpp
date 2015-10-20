@@ -4,6 +4,7 @@
 #include <string>
 #include <iomanip>
 #include <stdlib.h>
+#include <cstring>
 using namespace std;
 
 typedef struct _fingerprint
@@ -196,7 +197,7 @@ int Model::GetNumbersOfRule(int ruleSetNumberIndex)
 
 //-----------------------------------------------------------------//
 
-int main(void)
+int main(int argc,char* argv[])
 {
 	int map[1444];
 	map[0]=0;
@@ -1575,11 +1576,39 @@ int main(void)
 	map[1440]=1373;
 	map[1441]=1374;
 	map[1443]=1375;
-	
-    std::ifstream  data("3a4.p2m2fp3.cc2.predict");
-	std::ifstream  model("3a4.p2m2fp3.cc2.rules");
-	std::ofstream  output("3a4.p2m2fp3.cc2.statistics");
-	std::ifstream  descriptorfile("3a4.p2m2fp3.cc2.cases");
+
+	std::ifstream  data;
+	std::ifstream  model;
+	std::ofstream  output;
+	std::ifstream  descriptorfile;
+
+	if(argc==2){
+		char str[200];
+
+		strcpy(str,argv[1]);
+		strcat(str,"3a4.p2m2fp3.cc2.predict");
+		data.open(str);
+
+		strcpy(str,argv[1]);
+		strcat(str,"3a4.p2m2fp3.cc2.rules");
+		model.open(str);
+
+		strcpy(str,argv[1]);
+		strcat(str,"3a4.p2m2fp3.cc2.statistics");
+		output.open(str);
+
+		strcpy(str,argv[1]);
+		strcat(str,"3a4.p2m2fp3.cc2.cases");
+		descriptorfile.open(str);
+	}
+	else{
+		data.open("3a4.p2m2fp3.cc2.predict");
+		model.open("3a4.p2m2fp3.cc2.rules");
+		output.open("3a4.p2m2fp3.cc2.statistics");
+		descriptorfile.open("3a4.p2m2fp3.cc2.cases");
+	}
+
+
 	int i,j,k, numberOfDescriptors = 3465,numbersOfCompounds=0;
 	std::string line;
 	

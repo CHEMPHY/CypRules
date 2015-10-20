@@ -4,6 +4,7 @@
 #include <string>
 #include <iomanip>
 #include <stdlib.h>
+#include <cstring>
 using namespace std;
 
 typedef struct _fingerprint
@@ -196,24 +197,39 @@ int Model::GetNumbersOfRule(int ruleSetNumberIndex)
 
 int main(int argc, char* argv[])
 {
-	if( argc != 2)
-		return -1;
-	std::string uid(argv[1]);
-	std::string datafilename;
-	datafilename = "2d6.f.cc2."+uid+".predict";
-    std::ifstream  data(datafilename.c_str());
-	
-	std::string modelfilename;
-	modelfilename = "2d6.f.cc2." + uid + ".rules";
-	std::ifstream  model(modelfilename.c_str());
-	
-	std::string outputfilename;
-	outputfilename = "2d6.f.cc2." + uid + ".statistics";
-	std::ofstream  output(outputfilename.c_str());
-	
-	std::string casesfilename;
-	casesfilename = "2d6.f.cc2." + uid + ".cases";
-	std::ifstream  descriptorfile(casesfilename.c_str());
+
+	std::ifstream  data;
+	std::ifstream  model;
+	std::ofstream  output;
+	std::ifstream  descriptorfile;
+
+	if(argc==2){
+		char str[200];
+
+		strcpy(str,argv[1]);
+		strcat(str,"2d6.f.cc2.predict");
+		data.open(str);
+
+		strcpy(str,argv[1]);
+		strcat(str,"2d6.f.cc2.rules");
+		model.open(str);
+
+		strcpy(str,argv[1]);
+		strcat(str,"2d6.f.cc2.statistics");
+		output.open(str);
+
+		strcpy(str,argv[1]);
+		strcat(str,"2d6.f.cc2.cases");
+		descriptorfile.open(str);
+	}
+	else{
+		data.open("2d6.f.cc2.predict");
+		model.open("2d6.f.cc2.rules");
+		output.open("2d6.f.cc2.statistics");
+		descriptorfile.open("2d6.f.cc2.cases");
+	}
+
+
 
 	int i,j,k, numberOfDescriptors = 881,numbersOfCompounds=0;
 	std::string line;

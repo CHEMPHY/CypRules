@@ -10,16 +10,20 @@
 <entry key="Inputfile separator" type="xstring" value=","/>
 <entry key="IncludeColHdr" type="xboolean" value="false"/>
 <entry key="IncludeRowHdr" type="xboolean" value="false"/>
-<entry key="PathToExtExec" type="xstring" value="C:\Users\hsiao\Documents\GitHub\CypRules\program_example\program_example\run.bat"/>
-<entry key="ExtExecWorkDir" type="xstring" value="C:\Users\hsiao\Documents\GitHub\CypRules\program_example\program_example\"/>
+<entry key="PathToExtExec" type="xstring" value="C:\Users\hsiao\Documents\GitHub\CypRules\script\run_1A2.bat"/>
+<entry key="ExtExecWorkDir" type="xstring" value="C:\Users\hsiao\Documents\GitHub\CypRules\script"/>
 <entry key="ExtExecArgs" type="xstring" value=""/>
-<entry key="Output filename" type="xstring" value="C:\Users\hsiao\Documents\GitHub\CypRules\KNIME_CypRules\empty.txt"/>
-<entry key="Outputfile separator" type="xstring" value=","/>
+<entry key="Output filename" type="xstring" value="C:\Users\hsiao\Documents\GitHub\CypRules\workspace\output\out.txt"/>
+<entry key="Outputfile separator" type="xstring" value="\n"/>
 <entry key="ContainsColHdr" type="xboolean" value="false"/>
 <entry key="ContainsRowHdr" type="xboolean" value="false"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="ERROR"/>
+<entry key="message" type="xstring" value="Execute failed: Execution failed (exit code 1)"/>
+</config>
 <entry key="factory" type="xstring" value="org.knime.ext.exttool.ExtToolNodeFactory"/>
 <entry key="node-name" type="xstring" value="External Tool"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME External Tool Node"/>
@@ -28,19 +32,16 @@
 <entry key="node-bundle-version" type="xstring" value="2.12.0.0046157"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="External Tool"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 1"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="20fd7f1a-41f3-412f-bb1b-a76f51caec3a"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>

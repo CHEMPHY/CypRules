@@ -1585,19 +1585,19 @@ int main(int argc,char* argv[])
 		char str[200];
 
 		strcpy(str,argv[1]);
-		strcat(str,"\1a2.p2.cc.predict");
+		strcat(str,"1a2.p2.cc.predict");
 		data.open(str);
 
 		strcpy(str,argv[1]);
-		strcat(str,"\1a2.p2.cc.rules");
+		strcat(str,"1a2.p2.cc.rules");
 		model.open(str);
 
 		strcpy(str,argv[1]);
-		strcat(str,"\1a2.p2.cc.statistics");
+		strcat(str,"1a2.p2.cc.statistics");
 		output.open(str);
 
 		strcpy(str,argv[1]);
-		strcat(str,"\1a2.p2.cc.cases");
+		strcat(str,"1a2.p2.cc.cases");
 		descriptorfile.open(str);
 	}
 	else{

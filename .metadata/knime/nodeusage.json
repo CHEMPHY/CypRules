@@ -16,8 +16,8 @@
             "successor":"n/a"
         },
         "org.knime.ext.exttool.ExtToolNodeModel":{
-            "nrexecs":21,
-            "exectime":105470,
+            "nrexecs":27,
+            "exectime":275998,
             "nrcreated":3,
             "successor":"n/a"
         },
@@ -262,8 +262,8 @@
             "successor":"org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeModel"
         },
         "org.knime.datageneration.emptyfilecreato.EmptyFileCreatorNodeModel":{
-            "nrexecs":1,
-            "exectime":28,
+            "nrexecs":2,
+            "exectime":115,
             "nrcreated":1,
             "successor":"org.knime.ext.exttool.ExtToolNodeModel"
         },
@@ -280,8 +280,8 @@
             "successor":"n/a"
         }
     },
-    "uptime":124260679,
-    "launches":5,
+    "uptime":104507422,
+    "launches":6,
     "crashes":1,
-    "properlyShutDown":true
+    "properlyShutDown":false
 }

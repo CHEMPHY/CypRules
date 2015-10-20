@@ -9,12 +9,18 @@ using namespace std;
 
 //-----------------------------------------------------------------//
 
-int main(void)
+int main(int argc,char* argv[])
 {
-	
-    std::ifstream  data("2d6.f.cc2.cases2");
-	
-	std::ofstream  output("2d6.f.cc2.cases");
+	std::ifstream  data;
+	std::ofstream  output;
+	if(argc==3){
+		data.open(argv[1]);
+		output.open(argv[2]);
+	}
+	else{
+    	data.open("2d6.f.cc2.cases2");
+		output.open("2d6.f.cc2.cases");
+	}
 	
 	int i,j,k, numberOfDescriptors = 881,numbersOfCompounds=0;
 	std::string line;

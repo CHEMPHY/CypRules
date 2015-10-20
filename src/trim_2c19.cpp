@@ -9,12 +9,22 @@ using namespace std;
 
 //-----------------------------------------------------------------//
 
-int main(void)
+int main(int argc,char* argv[])
 {
-	
-    std::ifstream  data1("2c19.p2fp3.cc.cases2");
-	std::ifstream  data2("2c19.m2.cc.cases2");
-	std::ofstream  output("2c19.p2m2fp3.cc.cases");
+	std::ifstream  data1;
+	std::ifstream  data2;
+	std::ofstream  output;
+	if(argc==4){
+		data1.open(argv[1]);
+		data2.open(argv[2]);
+		output.open(argv[3]);
+	}
+	else{
+		data1.open("2c19.p2fp3.cc.cases2");
+		data2.open("2c19.m2.cc.cases2");
+		output.open("2c19.p2m2fp3.cc.cases");
+	}
+
 	
 	int i,j,k, numberOfDescriptors2d = 1444, numberOfDescriptors3d= 431,numberOfDescriptorsf= 881, numberOfDescriptorsm2 = 777, numbersOfCompounds=0;
 	std::string line1,line2;

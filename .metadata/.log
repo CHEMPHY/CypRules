@@ -138,3 +138,24 @@ java.lang.IllegalArgumentException: Destination "/CypRulesModel_program.docx" is
 
 !ENTRY org.knime.workbench.explorer.view 4 0 2015-10-14 12:20:05.664
 !MESSAGE Unable to download workflow: Unable to get downstream for server item /045_Misc/045001_External_Tool-Linux_or_Mac_only. Reason: Unknow error occurred.
+!SESSION 2015-10-20 11:58:35.797 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_TW
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2015-10-28 14:31:44.268
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2015-10-28 14:31:44.268
+!MESSAGE session context was:(profile=KNIMEProfile, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2015-10-28 14:31:44.268
+!MESSAGE No repository found containing: osgi.bundle,de.openms,2.0.0.201510161429
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2015-10-28 14:31:44.268
+!MESSAGE No repository found containing: osgi.bundle,de.openms.win32.x86_64,2.0.0.201510161429
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2015-10-28 14:31:44.268
+!MESSAGE No repository found containing: osgi.bundle,ws.palladian.nodes,1.6.0.201510151107
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2015-10-28 14:31:44.268
+!MESSAGE No repository found containing: org.eclipse.update.feature,de.openms.feature,2.0.0.201510161429
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2015-10-28 14:31:44.268
+!MESSAGE No repository found containing: org.eclipse.update.feature,ws.palladian.nodes.feature,1.6.0.201510151107

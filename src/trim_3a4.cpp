@@ -4,6 +4,7 @@
 #include <string>
 #include <iomanip>
 #include <stdlib.h>
+#include <algorithm>
 using namespace std;
 
 
@@ -24,7 +25,6 @@ int main(int argc,char* argv[])
 		data2.open("3a4.m2.cc2.cases2");
 		output.open("3a4.p2m2fp3.cc2.cases");
 	}
-	
 	int i,j,k, numberOfDescriptors2d = 1444, numberOfDescriptors3d= 431,numberOfDescriptorsf= 881, numberOfDescriptorsm2 = 777, numbersOfCompounds=0;
 	std::string line1,line2;
 	std::getline(data1,line1); // skip the first row (title row)
@@ -34,8 +34,10 @@ int main(int argc,char* argv[])
 		//P2
 		std::stringstream  lineStream1(line1);
         std::string        cell1;
-		std::getline(lineStream1,cell1,','); // compound name
+		std::getline(lineStream1,cell1,'\"'); // skip first '\"'
+		std::getline(lineStream1,cell1,'\"'); // compound name
 		string compoundname(cell1.c_str());
+		std::getline(lineStream1,cell1,','); // skip first ','
 		for( i = 0 ; i < numberOfDescriptors2d; i++ ){ //p2
 			std::getline(lineStream1,cell1,',');
 			if(  (i>=1 && i<=3) || (i>=459 && i<=464) || (i>=581 && i<=636) || (i==1248) || (i==1411) || (i==1442) )
@@ -72,8 +74,9 @@ int main(int argc,char* argv[])
 		}
 		output << out_p3.c_str();//p3
 
-		
-		output << "A," << compoundname.c_str() << endl;
+		std::replace( compoundname.begin(), compoundname.end(), ',', '*'); // replace all 'x' to 'y'
+		std::replace( compoundname.begin(), compoundname.end(), ' ', '_');
+		output << "A," << "\"" << compoundname.c_str() << "\"" << endl;
 	}
 
 	data1.clear();

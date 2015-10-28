@@ -4,6 +4,7 @@
 #include <string>
 #include <iomanip>
 #include <stdlib.h>
+#include <algorithm>
 using namespace std;
 
 
@@ -28,8 +29,10 @@ int main(int argc,char* argv[])
     {
 		std::stringstream  lineStream(line);
         std::string        cell;
-		std::getline(lineStream,cell,','); // compound name
+		std::getline(lineStream,cell,'\"'); // skip first '\"'
+		std::getline(lineStream,cell,'\"'); // compound name
 		string compoundname(cell.c_str());
+		std::getline(lineStream,cell,','); // skip first ','
 		for( i = 0 ; i < numberOfDescriptors; i++ ){
 			std::getline(lineStream,cell,',');
 			if(  (i>=1 && i<=3) || (i>=459 && i<=464) || (i>=581 && i<=636) || (i==1248) || (i==1411) || (i==1442) )
@@ -39,7 +42,9 @@ int main(int argc,char* argv[])
 			else
 				output << cell.c_str() << ",";
 		}
-		output << "A," << compoundname.c_str() << endl;
+		std::replace( compoundname.begin(), compoundname.end(), ',', '*'); // replace all 'x' to 'y'
+		std::replace( compoundname.begin(), compoundname.end(), ' ', '_'); // replace all 'x' to 'y'
+		output << "A," << "\"" << compoundname.c_str() << "\"" << endl;
 	}
 
 	data.clear();

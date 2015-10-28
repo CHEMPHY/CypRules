@@ -1,1 +1,2 @@
+C:\Users\hsiao\Documents\GitHub\CypRules\workspace\input\input.sdf
 C:\Users\hsiao\Documents\GitHub\CypRules\TestCompounds.sdf

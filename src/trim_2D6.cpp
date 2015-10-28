@@ -4,12 +4,13 @@
 #include <string>
 #include <iomanip>
 #include <stdlib.h>
+#include <algorithm>
 using namespace std;
 
 
 //-----------------------------------------------------------------//
 
-int main(int argc,char* argv[])
+int main(int argc, char* argv[])
 {
 	std::ifstream  data;
 	std::ofstream  output;
@@ -21,7 +22,6 @@ int main(int argc,char* argv[])
     	data.open("2d6.f.cc2.cases2");
 		output.open("2d6.f.cc2.cases");
 	}
-	
 	int i,j,k, numberOfDescriptors = 881,numbersOfCompounds=0;
 	std::string line;
 	std::getline(data,line);
@@ -29,12 +29,17 @@ int main(int argc,char* argv[])
     {
 		std::stringstream  lineStream(line);
         std::string        cell;
-		std::getline(lineStream,cell,','); // skip the first cell ("Number" column)
+		std::getline(lineStream,cell,'\"'); // skip first '\"'
+		std::getline(lineStream,cell,'\"'); // compound name
+		string compoundname(cell.c_str());
+		std::getline(lineStream,cell,','); // skip first ','
 		for( i = 0 ; i < numberOfDescriptors; i++ ){
 			std::getline(lineStream,cell,',');
 			output << cell.c_str() << ",";
 		}
-		output << "A" << endl;
+		std::replace( compoundname.begin(), compoundname.end(), ',', '*'); // replace all 'x' to 'y'
+		std::replace( compoundname.begin(), compoundname.end(), ' ', '_');
+		output << "A," << "\"" << compoundname.c_str() << "\"" << endl;
 	}
 
 	data.clear();

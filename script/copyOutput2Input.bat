@@ -1,0 +1,1 @@
+copy ..\workspace\output\out.sdf ..\workspace\input\input.sdf

@@ -1,0 +1,3 @@
+C:\Users\hsiao\Documents\GitHub\CypRules\workspace\output\out.sdf
+C:\Users\hsiao\Documents\GitHub\CypRules\workspace\output\out2.sdf
+C:\Users\hsiao\Documents\GitHub\CypRules\workspace\output

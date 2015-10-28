@@ -16,10 +16,10 @@
             "successor":"n/a"
         },
         "org.knime.ext.exttool.ExtToolNodeModel":{
-            "nrexecs":50,
-            "exectime":1042338,
+            "nrexecs":51,
+            "exectime":1069385,
             "nrcreated":3,
-            "successor":"n/a"
+            "successor":"org.knime.base.node.preproc.columnappend.ColumnAppenderNodeModel"
         },
         "org.knime.base.node.jsnippet.JavaSnippetNodeModel":{
             "nrexecs":0,
@@ -72,19 +72,19 @@
         "org.knime.base.node.preproc.colcombine2.ColCombine2NodeModel":{
             "nrexecs":0,
             "exectime":0,
-            "nrcreated":1,
+            "nrcreated":2,
             "successor":"n/a"
         },
         "org.knime.base.node.preproc.columnappend.ColumnAppenderNodeModel":{
-            "nrexecs":3,
-            "exectime":3530,
-            "nrcreated":1,
-            "successor":"org.knime.base.node.viz.table.TableNodeModel"
+            "nrexecs":8,
+            "exectime":3599,
+            "nrcreated":2,
+            "successor":"org.knime.base.node.preproc.filter.row.RowFilterNodeModel"
         },
         "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeModel":{
             "nrexecs":7,
             "exectime":24,
-            "nrcreated":1,
+            "nrcreated":2,
             "successor":"org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeModel"
         },
         "org.openscience.cdk.knime.nodes.fingerprints.FingerprintNodeModel":{
@@ -94,9 +94,9 @@
             "successor":"n/a"
         },
         "org.knime.chem.base.node.io.sdf.SDFReader3NodeModel":{
-            "nrexecs":1,
-            "exectime":66,
-            "nrcreated":1,
+            "nrexecs":6,
+            "exectime":315,
+            "nrcreated":2,
             "successor":"com.ggasoftware.indigo.knime.convert.molecule.IndigoMoleculeLoaderNodeModel"
         },
         "org.rdkit.knime.nodes.rdkfingerprint.RDKitFingerprintNodeModel":{
@@ -178,16 +178,16 @@
             "successor":"org.knime.base.node.io.csvwriter.CSVWriterNodeModel"
         },
         "org.knime.base.node.preproc.stringreplacer.StringReplacerNodeModel":{
-            "nrexecs":1726,
-            "exectime":3371712,
-            "nrcreated":3,
-            "successor":"org.knime.base.node.preproc.columnheaderinsert.ColumnHeaderInsertNodeModel"
+            "nrexecs":1738,
+            "exectime":3371758,
+            "nrcreated":4,
+            "successor":"org.knime.chem.base.node.io.sdfwriter2.SDFWriterNodeModel"
         },
         "org.knime.base.node.preproc.filter.row.RowFilterNodeModel":{
-            "nrexecs":0,
-            "exectime":0,
-            "nrcreated":2,
-            "successor":"n/a"
+            "nrexecs":12,
+            "exectime":169,
+            "nrcreated":4,
+            "successor":"org.knime.base.node.preproc.stringreplacer.StringReplacerNodeModel"
         },
         "org.knime.ext.jep.JEPNodeModel":{
             "nrexecs":0,
@@ -262,8 +262,8 @@
             "successor":"org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeModel"
         },
         "org.knime.datageneration.emptyfilecreato.EmptyFileCreatorNodeModel":{
-            "nrexecs":6,
-            "exectime":237,
+            "nrexecs":7,
+            "exectime":267,
             "nrcreated":1,
             "successor":"org.knime.ext.exttool.ExtToolNodeModel"
         },
@@ -278,9 +278,21 @@
             "exectime":2,
             "nrcreated":2,
             "successor":"n/a"
+        },
+        "org.knime.base.node.preproc.columnmerge.ColumnMergerNodeModel":{
+            "nrexecs":0,
+            "exectime":0,
+            "nrcreated":1,
+            "successor":"n/a"
+        },
+        "org.knime.chem.base.node.io.sdfwriter2.SDFWriterNodeModel":{
+            "nrexecs":11,
+            "exectime":198,
+            "nrcreated":1,
+            "successor":"n/a"
         }
     },
-    "uptime":190065592,
+    "uptime":191672084,
     "launches":7,
     "crashes":1,
     "properlyShutDown":false

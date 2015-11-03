@@ -16,8 +16,8 @@
             "successor":"n/a"
         },
         "org.knime.ext.exttool.ExtToolNodeModel":{
-            "nrexecs":51,
-            "exectime":1069385,
+            "nrexecs":57,
+            "exectime":1179017,
             "nrcreated":3,
             "successor":"org.knime.base.node.preproc.columnappend.ColumnAppenderNodeModel"
         },
@@ -76,8 +76,8 @@
             "successor":"n/a"
         },
         "org.knime.base.node.preproc.columnappend.ColumnAppenderNodeModel":{
-            "nrexecs":8,
-            "exectime":3599,
+            "nrexecs":12,
+            "exectime":3677,
             "nrcreated":2,
             "successor":"org.knime.base.node.preproc.filter.row.RowFilterNodeModel"
         },
@@ -94,8 +94,8 @@
             "successor":"n/a"
         },
         "org.knime.chem.base.node.io.sdf.SDFReader3NodeModel":{
-            "nrexecs":6,
-            "exectime":315,
+            "nrexecs":9,
+            "exectime":560,
             "nrcreated":2,
             "successor":"com.ggasoftware.indigo.knime.convert.molecule.IndigoMoleculeLoaderNodeModel"
         },
@@ -178,14 +178,14 @@
             "successor":"org.knime.base.node.io.csvwriter.CSVWriterNodeModel"
         },
         "org.knime.base.node.preproc.stringreplacer.StringReplacerNodeModel":{
-            "nrexecs":1738,
-            "exectime":3371758,
+            "nrexecs":1746,
+            "exectime":3371790,
             "nrcreated":4,
             "successor":"org.knime.chem.base.node.io.sdfwriter2.SDFWriterNodeModel"
         },
         "org.knime.base.node.preproc.filter.row.RowFilterNodeModel":{
-            "nrexecs":12,
-            "exectime":169,
+            "nrexecs":20,
+            "exectime":350,
             "nrcreated":4,
             "successor":"org.knime.base.node.preproc.stringreplacer.StringReplacerNodeModel"
         },
@@ -262,8 +262,8 @@
             "successor":"org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeModel"
         },
         "org.knime.datageneration.emptyfilecreato.EmptyFileCreatorNodeModel":{
-            "nrexecs":7,
-            "exectime":267,
+            "nrexecs":10,
+            "exectime":376,
             "nrcreated":1,
             "successor":"org.knime.ext.exttool.ExtToolNodeModel"
         },
@@ -286,14 +286,44 @@
             "successor":"n/a"
         },
         "org.knime.chem.base.node.io.sdfwriter2.SDFWriterNodeModel":{
-            "nrexecs":11,
-            "exectime":198,
+            "nrexecs":21,
+            "exectime":465,
+            "nrcreated":1,
+            "successor":"n/a"
+        },
+        "org.knime.base.node.switches.manualif.ManualIfNodeModel":{
+            "nrexecs":0,
+            "exectime":0,
+            "nrcreated":2,
+            "successor":"n/a"
+        },
+        "org.knime.quickform.nodes.in.selection.single.SingleSelectionInputQuickFormInNodeModel":{
+            "nrexecs":0,
+            "exectime":0,
+            "nrcreated":1,
+            "successor":"n/a"
+        },
+        "org.knime.quickform.nodes.in.selection.multiple.MultipleSelectionInputQuickFormInNodeModel":{
+            "nrexecs":1,
+            "exectime":29,
+            "nrcreated":1,
+            "successor":"n/a"
+        },
+        "org.knime.base.node.switches.caseswitch.CaseStartNodeModel":{
+            "nrexecs":0,
+            "exectime":0,
+            "nrcreated":2,
+            "successor":"n/a"
+        },
+        "org.knime.dynamic.js.DynamicJSNodeModel":{
+            "nrexecs":0,
+            "exectime":0,
             "nrcreated":1,
             "successor":"n/a"
         }
     },
-    "uptime":191672084,
-    "launches":7,
+    "uptime":150910918,
+    "launches":9,
     "crashes":1,
     "properlyShutDown":false
 }

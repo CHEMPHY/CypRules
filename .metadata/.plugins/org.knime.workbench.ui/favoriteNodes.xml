@@ -2,9 +2,11 @@
 <favoritenodes>
 <personals/>
 <frequents>
+<favorite frequency="1" nodeid="org.knime.chem.base.node.io.sdf.SDFReader3NodeFactory"/>
 <favorite frequency="1" nodeid="org.pasteur.pf2.tools.CmdwInputNodeFactory"/>
 </frequents>
 <lastused>
 <favorite nodeid="org.pasteur.pf2.tools.CmdwInputNodeFactory"/>
+<favorite nodeid="org.knime.chem.base.node.io.sdf.SDFReader3NodeFactory"/>
 </lastused>
 </favoritenodes>

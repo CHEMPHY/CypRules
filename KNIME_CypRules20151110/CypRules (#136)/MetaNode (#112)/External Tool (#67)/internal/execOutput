@@ -1,0 +1,19 @@
+
+C:\Users\hsiao\Documents\GitHub\CypRules\script>java -jar ../bin/PaDEL-Descriptor/PaDEL-Descriptor.jar -2d -retain3d -standardizenitro -removesalt -detectaromaticity -retainorder -dir ../workspace/input/ -file ../workspace/1a2.p2.cc.cases2  1>../workspace/log_PaDEL-Descriptor.txt 
+
+C:\Users\hsiao\Documents\GitHub\CypRules\script>copy ..\program_example\1A2\1a2.p2.cc.names ..\workspace\1a2.p2.cc.names 
+複製了         1 個檔案。
+
+C:\Users\hsiao\Documents\GitHub\CypRules\script>..\bin\trim_1a2.exe ..\workspace\1a2.p2.cc.cases2 ..\workspace\1a2.p2.cc.cases 
+
+C:\Users\hsiao\Documents\GitHub\CypRules\script>copy ..\program_example\1A2\1a2.p2.cc.rules ..\workspace\1a2.p2.cc.rules 
+複製了         1 個檔案。
+
+C:\Users\hsiao\Documents\GitHub\CypRules\script>..\bin\predict.exe -R -f ..\workspace\1a2.p2.cc  1>..\workspace\1a2.p2.cc.predict 
+
+C:\Users\hsiao\Documents\GitHub\CypRules\script>..\bin\parse_1a2.exe ..\workspace\ 
+
+C:\Users\hsiao\Documents\GitHub\CypRules\script>copy ..\workspace\1a2.p2.cc.statistics ..\workspace\output\out.txt 
+複製了         1 個檔案。
+
+C:\Users\hsiao\Documents\GitHub\CypRules\script>..\bin\postProcessing.exe ..\workspace\output\out.txt ..\workspace\output\out2.txt 

@@ -16,8 +16,8 @@
             "successor":"n/a"
         },
         "org.knime.ext.exttool.ExtToolNodeModel":{
-            "nrexecs":112,
-            "exectime":1919384,
+            "nrexecs":117,
+            "exectime":1985559,
             "nrcreated":3,
             "successor":"org.knime.base.node.preproc.columnappend.ColumnAppenderNodeModel"
         },
@@ -58,9 +58,9 @@
             "successor":"n/a"
         },
         "org.knime.base.node.viz.table.TableNodeModel":{
-            "nrexecs":13,
-            "exectime":18,
-            "nrcreated":3,
+            "nrexecs":17,
+            "exectime":20,
+            "nrcreated":4,
             "successor":"n/a"
         },
         "org.knime.base.node.io.csvreader.CSVReaderNodeModel":{
@@ -72,20 +72,20 @@
         "org.knime.base.node.preproc.colcombine2.ColCombine2NodeModel":{
             "nrexecs":0,
             "exectime":0,
-            "nrcreated":2,
+            "nrcreated":3,
             "successor":"n/a"
         },
         "org.knime.base.node.preproc.columnappend.ColumnAppenderNodeModel":{
-            "nrexecs":66,
-            "exectime":4613,
-            "nrcreated":2,
-            "successor":"org.knime.base.node.preproc.stringreplacer.StringReplacerNodeModel"
+            "nrexecs":87,
+            "exectime":5261,
+            "nrcreated":3,
+            "successor":"org.knime.base.node.preproc.filter.row.RowFilterNodeModel"
         },
         "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeModel":{
-            "nrexecs":7,
-            "exectime":24,
-            "nrcreated":2,
-            "successor":"org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeModel"
+            "nrexecs":22,
+            "exectime":52,
+            "nrcreated":4,
+            "successor":"org.knime.base.node.viz.table.TableNodeModel"
         },
         "org.openscience.cdk.knime.nodes.fingerprints.FingerprintNodeModel":{
             "nrexecs":9,
@@ -94,8 +94,8 @@
             "successor":"n/a"
         },
         "org.knime.chem.base.node.io.sdf.SDFReader3NodeModel":{
-            "nrexecs":62,
-            "exectime":7137,
+            "nrexecs":67,
+            "exectime":7643,
             "nrcreated":2,
             "successor":"com.ggasoftware.indigo.knime.convert.molecule.IndigoMoleculeLoaderNodeModel"
         },
@@ -178,16 +178,16 @@
             "successor":"org.knime.base.node.io.csvwriter.CSVWriterNodeModel"
         },
         "org.knime.base.node.preproc.stringreplacer.StringReplacerNodeModel":{
-            "nrexecs":1882,
-            "exectime":3383852,
+            "nrexecs":1897,
+            "exectime":3384612,
             "nrcreated":4,
             "successor":"NodeContainer"
         },
         "org.knime.base.node.preproc.filter.row.RowFilterNodeModel":{
-            "nrexecs":139,
-            "exectime":11627,
-            "nrcreated":5,
-            "successor":"org.knime.base.node.switches.emptytableswitch.EmptyTableSwitchNodeModel"
+            "nrexecs":151,
+            "exectime":12100,
+            "nrcreated":6,
+            "successor":"com.vernalis.knime.flowcontrol.nodes.abstrct.varvalifswitch.AbstractFvvalIfSwitchNodeModel"
         },
         "org.knime.ext.jep.JEPNodeModel":{
             "nrexecs":0,
@@ -262,8 +262,8 @@
             "successor":"org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeModel"
         },
         "org.knime.datageneration.emptyfilecreato.EmptyFileCreatorNodeModel":{
-            "nrexecs":79,
-            "exectime":5004,
+            "nrexecs":88,
+            "exectime":5105,
             "nrcreated":2,
             "successor":"com.vernalis.knime.flowcontrol.nodes.abstrct.varvalifswitch.AbstractFvvalIfSwitchNodeModel"
         },
@@ -282,12 +282,12 @@
         "org.knime.base.node.preproc.columnmerge.ColumnMergerNodeModel":{
             "nrexecs":0,
             "exectime":0,
-            "nrcreated":1,
+            "nrcreated":2,
             "successor":"n/a"
         },
         "org.knime.chem.base.node.io.sdfwriter2.SDFWriterNodeModel":{
-            "nrexecs":125,
-            "exectime":11576,
+            "nrexecs":135,
+            "exectime":11949,
             "nrcreated":1,
             "successor":"n/a"
         },
@@ -298,10 +298,10 @@
             "successor":"n/a"
         },
         "org.knime.quickform.nodes.in.selection.single.SingleSelectionInputQuickFormInNodeModel":{
-            "nrexecs":7,
-            "exectime":3,
+            "nrexecs":9,
+            "exectime":5,
             "nrcreated":6,
-            "successor":"NodeContainer"
+            "successor":"com.vernalis.knime.flowcontrol.nodes.abstrct.varvalifswitch.AbstractFvvalIfSwitchNodeModel"
         },
         "org.knime.quickform.nodes.in.selection.multiple.MultipleSelectionInputQuickFormInNodeModel":{
             "nrexecs":17,
@@ -328,10 +328,10 @@
             "successor":"n/a"
         },
         "com.vernalis.knime.flowcontrol.nodes.abstrct.varvalifswitch.AbstractFvvalIfSwitchNodeModel":{
-            "nrexecs":108,
-            "exectime":1215,
-            "nrcreated":8,
-            "successor":"NodeContainer"
+            "nrexecs":114,
+            "exectime":1227,
+            "nrcreated":10,
+            "successor":"org.knime.base.node.preproc.filter.row.RowFilterNodeModel"
         },
         "com.vernalis.knime.flowcontrol.nodes.abstrct.caseselect.AbstractCaseSelectNodeModel":{
             "nrexecs":0,
@@ -360,14 +360,14 @@
         "com.vernalis.knime.flowcontrol.nodes.abstrct.ifswitch.AbstractIfSwitchNodeModel":{
             "nrexecs":0,
             "exectime":0,
-            "nrcreated":6,
-            "successor":"NodeContainer"
+            "nrcreated":7,
+            "successor":"org.knime.base.node.preproc.filter.row.RowFilterNodeModel"
         },
         "NodeContainer":{
             "nrexecs":0,
             "exectime":0,
             "nrcreated":0,
-            "successor":"com.vernalis.knime.flowcontrol.nodes.abstrct.varvalifswitch.AbstractFvvalIfSwitchNodeModel"
+            "successor":"org.knime.base.node.preproc.rename.RenameNodeModel"
         },
         "org.knime.js.base.node.quickform.selection.multiple.MultipleSelectionQuickFormNodeModel":{
             "nrexecs":0,
@@ -418,14 +418,56 @@
             "successor":"n/a"
         },
         "org.knime.base.node.preproc.append.row.AppendedRowsNodeModel":{
-            "nrexecs":5,
-            "exectime":134,
-            "nrcreated":3,
+            "nrexecs":6,
+            "exectime":135,
+            "nrcreated":5,
             "successor":"org.knime.base.node.preproc.append.row.AppendedRowsNodeModel"
+        },
+        "org.knime.quickform.nodes.in.selection.value.ValueFilterInputQuickFormInNodeModel":{
+            "nrexecs":0,
+            "exectime":0,
+            "nrcreated":1,
+            "successor":"n/a"
+        },
+        "org.knime.base.node.preproc.rename.RenameNodeModel":{
+            "nrexecs":10,
+            "exectime":94,
+            "nrcreated":1,
+            "successor":"org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeModel"
+        },
+        "org.knime.base.node.preproc.columnaggregator.ColumnAggregatorNodeModel":{
+            "nrexecs":0,
+            "exectime":0,
+            "nrcreated":1,
+            "successor":"n/a"
+        },
+        "org.knime.base.node.rules.engine.RuleEngineFilterNodeModel":{
+            "nrexecs":13,
+            "exectime":745,
+            "nrcreated":1,
+            "successor":"org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeModel"
+        },
+        "org.knime.ext.sun.nodes.script.node.rowsplitter.JavaRowSplitterNodeModel":{
+            "nrexecs":0,
+            "exectime":0,
+            "nrcreated":1,
+            "successor":"n/a"
+        },
+        "org.knime.python.nodes.script.PythonScriptNodeModel":{
+            "nrexecs":0,
+            "exectime":0,
+            "nrcreated":2,
+            "successor":"n/a"
+        },
+        "de.mpicbg.knime.scripting.python.PythonSnippetNodeModel":{
+            "nrexecs":0,
+            "exectime":0,
+            "nrcreated":1,
+            "successor":"n/a"
         }
     },
-    "uptime":169426111,
-    "launches":10,
+    "uptime":225260222,
+    "launches":11,
     "crashes":1,
     "properlyShutDown":false
 }

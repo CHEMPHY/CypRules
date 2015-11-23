@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2C9_isInhibitor_option"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Both"/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2C9_isInhibitor_option (Index)"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="2"/>
+</config>
+<config key="Variable_2">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2C9_isInhibitor_option"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Both"/>
+</config>
+<config key="Variable_3">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2C9_isInhibitor_option (Index)"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="2"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="label" type="xstring" value="Label"/>
+<entry key="description" type="xstring" value="Enter Description"/>
+<entry key="variableName" type="xstring" value="2C9_isInhibitor_option"/>
+<entry key="weight" type="xint" value="1"/>
+<entry key="hide_in_wizard" type="xboolean" value="false"/>
+<config key="value">
+<entry key="value" type="xstring" value="Both"/>
+<entry key="layout" type="xstring" value="RADIO_VERTICAL"/>
+</config>
+<entry key="choices" type="xstring" value="Inhibitor,NonInhibitor,Both"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.quickform.nodes.in.selection.single.SingleSelectionInputQuickFormInNodeFactory"/>
+<entry key="node-name" type="xstring" value="Single Selection Input QuickForm "/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Nodes to create KNIME Quick Forms"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.quickform.nodes"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME.com, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="2.12.0.0047514"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Single Selection Input QuickForm "/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+<entry key="port_object_summary" type="xstring" value="Variables connection"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="82ee620a-0591-471a-92b6-30dc45b04bdd"/>
+</config>
+</config>

@@ -58,8 +58,8 @@
             "successor":"n/a"
         },
         "org.knime.base.node.viz.table.TableNodeModel":{
-            "nrexecs":17,
-            "exectime":20,
+            "nrexecs":22,
+            "exectime":22,
             "nrcreated":4,
             "successor":"n/a"
         },
@@ -76,16 +76,16 @@
             "successor":"n/a"
         },
         "org.knime.base.node.preproc.columnappend.ColumnAppenderNodeModel":{
-            "nrexecs":87,
-            "exectime":5261,
-            "nrcreated":3,
-            "successor":"org.knime.base.node.preproc.filter.row.RowFilterNodeModel"
+            "nrexecs":119,
+            "exectime":5294,
+            "nrcreated":4,
+            "successor":"org.knime.python.nodes.script2in1out.PythonScript2In1OutNodeModel"
         },
         "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeModel":{
-            "nrexecs":22,
-            "exectime":52,
+            "nrexecs":24,
+            "exectime":72,
             "nrcreated":4,
-            "successor":"org.knime.base.node.viz.table.TableNodeModel"
+            "successor":"org.knime.base.node.preproc.filter.rowref.RowFilterRefNodeModel"
         },
         "org.openscience.cdk.knime.nodes.fingerprints.FingerprintNodeModel":{
             "nrexecs":9,
@@ -186,7 +186,7 @@
         "org.knime.base.node.preproc.filter.row.RowFilterNodeModel":{
             "nrexecs":151,
             "exectime":12100,
-            "nrcreated":6,
+            "nrcreated":7,
             "successor":"com.vernalis.knime.flowcontrol.nodes.abstrct.varvalifswitch.AbstractFvvalIfSwitchNodeModel"
         },
         "org.knime.ext.jep.JEPNodeModel":{
@@ -298,10 +298,10 @@
             "successor":"n/a"
         },
         "org.knime.quickform.nodes.in.selection.single.SingleSelectionInputQuickFormInNodeModel":{
-            "nrexecs":9,
-            "exectime":5,
-            "nrcreated":6,
-            "successor":"com.vernalis.knime.flowcontrol.nodes.abstrct.varvalifswitch.AbstractFvvalIfSwitchNodeModel"
+            "nrexecs":34,
+            "exectime":159,
+            "nrcreated":7,
+            "successor":"org.knime.base.node.flowvariable.appendvariabletotable2.AppendVariableToTable2NodeModel"
         },
         "org.knime.quickform.nodes.in.selection.multiple.MultipleSelectionInputQuickFormInNodeModel":{
             "nrexecs":17,
@@ -312,7 +312,7 @@
         "org.knime.base.node.switches.caseswitch.CaseStartNodeModel":{
             "nrexecs":0,
             "exectime":0,
-            "nrcreated":2,
+            "nrcreated":3,
             "successor":"n/a"
         },
         "org.knime.dynamic.js.DynamicJSNodeModel":{
@@ -402,7 +402,7 @@
         "org.knime.quickform.nodes.in.selection.value.ValueSelectionInputQuickFormInNodeModel":{
             "nrexecs":0,
             "exectime":0,
-            "nrcreated":2,
+            "nrcreated":3,
             "successor":"n/a"
         },
         "org.knime.quickform.nodes.in.listbox.ListBoxInputQuickFormInNodeModel":{
@@ -418,9 +418,9 @@
             "successor":"n/a"
         },
         "org.knime.base.node.preproc.append.row.AppendedRowsNodeModel":{
-            "nrexecs":6,
-            "exectime":135,
-            "nrcreated":5,
+            "nrexecs":7,
+            "exectime":203,
+            "nrcreated":6,
             "successor":"org.knime.base.node.preproc.append.row.AppendedRowsNodeModel"
         },
         "org.knime.quickform.nodes.in.selection.value.ValueFilterInputQuickFormInNodeModel":{
@@ -456,18 +456,84 @@
         "org.knime.python.nodes.script.PythonScriptNodeModel":{
             "nrexecs":0,
             "exectime":0,
-            "nrcreated":2,
+            "nrcreated":3,
             "successor":"n/a"
         },
         "de.mpicbg.knime.scripting.python.PythonSnippetNodeModel":{
             "nrexecs":0,
             "exectime":0,
+            "nrcreated":3,
+            "successor":"n/a"
+        },
+        "org.knime.python.nodes.source.PythonSourceNodeModel":{
+            "nrexecs":0,
+            "exectime":0,
+            "nrcreated":2,
+            "successor":"n/a"
+        },
+        "org.knime.base.node.preproc.crossjoin.CrossJoinerNodeModel":{
+            "nrexecs":0,
+            "exectime":0,
             "nrcreated":1,
             "successor":"n/a"
+        },
+        "org.knime.js.base.node.quickform.selection.single.SingleSelectionQuickFormNodeModel":{
+            "nrexecs":0,
+            "exectime":0,
+            "nrcreated":1,
+            "successor":"n/a"
+        },
+        "com.vernalis.knime.flowvar.nodes.io.write.WriteVariablesNodeModel":{
+            "nrexecs":0,
+            "exectime":0,
+            "nrcreated":1,
+            "successor":"n/a"
+        },
+        "org.knime.base.node.flowvariable.appendvariabletotable2.AppendVariableToTable2NodeModel":{
+            "nrexecs":0,
+            "exectime":0,
+            "nrcreated":1,
+            "successor":"n/a"
+        },
+        "org.knime.quickform.nodes.out.variable.VariableOutputQuickFormOutNodeModel":{
+            "nrexecs":0,
+            "exectime":0,
+            "nrcreated":1,
+            "successor":"n/a"
+        },
+        "org.knime.base.node.flowvariable.variabletotablerow2.VariableToTable2NodeModel":{
+            "nrexecs":29,
+            "exectime":307,
+            "nrcreated":1,
+            "successor":"org.knime.base.node.preproc.columnappend.ColumnAppenderNodeModel"
+        },
+        "org.knime.ext.jython.PythonScriptNodeModel":{
+            "nrexecs":0,
+            "exectime":0,
+            "nrcreated":1,
+            "successor":"n/a"
+        },
+        "org.knime.python.nodes.script2in1out.PythonScript2In1OutNodeModel":{
+            "nrexecs":6,
+            "exectime":3398,
+            "nrcreated":2,
+            "successor":"org.knime.base.node.preproc.filter.rowref.RowFilterRefNodeModel"
+        },
+        "org.knime.base.node.rules.engine.RuleEngineNodeModel":{
+            "nrexecs":0,
+            "exectime":0,
+            "nrcreated":1,
+            "successor":"n/a"
+        },
+        "org.knime.base.node.preproc.filter.rowref.RowFilterRefNodeModel":{
+            "nrexecs":6,
+            "exectime":297,
+            "nrcreated":1,
+            "successor":"NodeContainer"
         }
     },
-    "uptime":225260222,
-    "launches":11,
+    "uptime":219865164,
+    "launches":14,
     "crashes":1,
     "properlyShutDown":false
 }

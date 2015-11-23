@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+python.exec=C\:\\Python27\\python.exe
+python.plot.template.resources=("https\://raw.githubusercontent.com/knime-mpicbg/scripting-templates/master/knime-scripting-templates/Python/figure-templates.txt",true)
+python.template.resources=("https\://raw.githubusercontent.com/knime-mpicbg/scripting-templates/master/knime-scripting-templates/Python/script-templates.txt",true)

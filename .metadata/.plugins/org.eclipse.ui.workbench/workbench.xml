@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><workbench progressCount="15" version="2.0">
+<?xml version="1.0" encoding="UTF-8"?><workbench progressCount="22" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="536" y="172">
 <fastViewData fastViewLocation="1024"/>
@@ -8,7 +8,7 @@
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="53" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.knime.workbench.editor.WorkflowEditor" itemType="typeToolBarContribution" x="687" y="22"/>
-<coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.browser.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
 <page focus="true" label="&lt;Unknown Label&gt; - KNIME">
 <editors>
@@ -18,9 +18,6 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"><part id="1"/>
 <part id="0"/>
 <part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
 </presentation>
 </folder>
 </info>
@@ -28,7 +25,7 @@
 
 <editor id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" partName="0: KNIME_CypRules20151110" title="0: KNIME_CypRules20151110" tooltip="0: KNIME_CypRules20151110" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="knime://LOCAL/KNIME_CypRules20151110/workflow.knime"/>
-</editor><editor activePart="true" focus="true" id="org.eclipse.ui.browser.editor" name="KNIME Intro" partName="KNIME Intro" title="Welcome to KNIME" tooltip="Welcome to KNIME" workbook="DefaultEditorWorkbook"><input factoryID="org.eclipse.ui.browser.elementFactory" id="org.knime.intro.page" url="file:/C:/Users/hsiao/AppData/Local/Temp/intro2988817583233816626.html"/></editor></editors>
+</editor><editor activePart="true" focus="true" id="org.eclipse.ui.browser.editor" name="KNIME Intro" partName="KNIME Intro" title="Welcome to KNIME" tooltip="Welcome to KNIME" workbook="DefaultEditorWorkbook"><input factoryID="org.eclipse.ui.browser.elementFactory" id="org.knime.intro.page" url="file:/C:/Users/hsiao/AppData/Local/Temp/intro3442849685064849219.html"/></editor></editors>
 <views>
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
@@ -185,29 +182,22 @@
 <item historyLabel="0: KNIME_CypRules20151110" index="1"/>
 <item historyLabel="0: KNIME_CypRules20151110" index="1"/>
 <item historyLabel="0: KNIME_CypRules20151110" index="1"/>
+<item historyLabel="0: KNIME_CypRules20151110" index="1"/>
+<item historyLabel="0: KNIME_CypRules20151110" index="1"/>
+<item historyLabel="0: KNIME_CypRules20151110" index="1"/>
+<item historyLabel="0: KNIME_CypRules20151110" index="1"/>
 <item active="true" historyLabel="0: KNIME_CypRules20151110" index="1"/>
 </navigationHistory>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@12b8f08c"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@2bb880ee"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@229b88c5"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@7aa3c085"/>
-</trimArea>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@11304f43"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
 <trimArea IMemento.internal.id="1024">
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@5e189fae"/>
 </trimArea>
 </trimLayout>
 </window>

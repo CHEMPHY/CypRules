@@ -6,25 +6,25 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="2C19_isInhibitor_option"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Inhibitor"/>
+<entry key="value" type="xstring" value="Both"/>
 </config>
 <config key="Variable_1">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="2C19_isInhibitor_option (Index)"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="0"/>
+<entry key="value" type="xint" value="2"/>
 </config>
 <config key="Variable_2">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="2C19_isInhibitor_option"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Inhibitor"/>
+<entry key="value" type="xstring" value="Both"/>
 </config>
 <config key="Variable_3">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="2C19_isInhibitor_option (Index)"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="0"/>
+<entry key="value" type="xint" value="2"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -37,7 +37,7 @@
 <entry key="weight" type="xint" value="1"/>
 <entry key="hide_in_wizard" type="xboolean" value="false"/>
 <config key="value">
-<entry key="value" type="xstring" value="Inhibitor"/>
+<entry key="value" type="xstring" value="Both"/>
 <entry key="layout" type="xstring" value="RADIO_VERTICAL"/>
 </config>
 <entry key="choices" type="xstring" value="Inhibitor,NonInhibitor,Both"/>
@@ -67,6 +67,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="4d436d2b-4253-4886-b1a7-adc1b5d617ed"/>
+<entry key="file_store_id" type="xstring" value="f4e4f27c-74df-4d39-adfa-eb1a42fb4a8d"/>
 </config>
 </config>
